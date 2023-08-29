@@ -34,6 +34,7 @@ h1 {
 }
 
 form {
+  width: 360px;
   margin: 20px 0;
   background-color: white;
   padding: 30px 25px;
@@ -73,7 +74,7 @@ form .btn-login {
 }
 
 ion-icon {
-  margin-top: 20px;
+  margin-top: 80px;
   color: white;
   font-size: 50px;
 }
