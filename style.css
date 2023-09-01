@@ -72,6 +72,7 @@ form .input-block input {
   color: var(--main-text-box);
   border-radius: 2px;
   border: 1px solid #ccddef;
+  outline: none;
 }
 
 form .btn-login {
