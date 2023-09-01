@@ -5,7 +5,7 @@
 }
 
 :root {
-  --bg-color: rgb(33, 37, 41);
+  --bg-color: linear-gradient(90deg, #3f2580 0%, #8a4af3 100%);
   --color-button: #7159c1;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   font-family: Roboto, Arial, sans-serif;
 }
 
