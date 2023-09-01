@@ -76,7 +76,7 @@ form .input-block input {
   font-size: 16px;
   color: var(--main-text-box);
   border-radius: 2px;
-  border: 2px solid rgba(128, 128, 128, 0.842);
+  border: 2px solid rgba(128, 128, 128, 0.497);
   outline: none;
   transition: border 0.3s;
 }
