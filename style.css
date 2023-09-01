@@ -33,7 +33,8 @@ section {
 }
 
 img {
-  width: 300px;
+  margin-top: 50px;
+  width: 150px;
 }
 
 h1 {
@@ -75,7 +76,13 @@ form .input-block input {
   font-size: 16px;
   color: var(--main-text-box);
   border-radius: 2px;
-  border: 1px solid #ccddef;
+  border: 2px solid rgba(128, 128, 128, 0.842);
+  outline: none;
+  transition: border 0.3s;
+}
+
+form .input-block input:focus-visible {
+  border: 2px solid var(--main-text-box);
   outline: none;
 }
 
