@@ -69,14 +69,15 @@ form .input-block label {
 }
 
 form .input-block input {
+  height: 45px;
   width: 100%;
   display: block;
   margin-top: 8px;
   padding: 7px;
   font-size: 16px;
   color: var(--main-text-box);
-  border-radius: 2px;
-  border: 2px solid rgba(128, 128, 128, 0.497);
+  border-radius: 3px;
+  border: 2px solid rgba(128, 128, 128, 0.337);
   outline: none;
   transition: border 0.3s;
 }
