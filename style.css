@@ -130,6 +130,8 @@ ion-icon {
   border: 3px solid rgba(255, 255, 255, 0);
   transition: background 0.3s, border 0.3s;
   border-radius: 50%;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 ion-icon:hover {
