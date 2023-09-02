@@ -111,6 +111,17 @@ form .btn-login:focus-visible {
   outline: none;
 }
 
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-icon {
+  color: var(--text-color);
+  font-size: 32px;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
