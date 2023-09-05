@@ -16,6 +16,8 @@
 html,
 body {
   height: 100vh;
+  width: 100vw;
+  max-width: 2000px;
 }
 
 body {
@@ -23,8 +25,11 @@ body {
   font-family: Roboto, Arial, sans-serif;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-flow: wrap;
 }
 
 section {
@@ -43,21 +48,23 @@ img {
 h1 {
   font-size: 80px;
   font-weight: 800;
-  letter-spacing: 1px;
-  margin: 20px 0;
   color: var(--text-color);
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
+.banner {
+  width: 600px;
+}
+
 .form-section {
-  margin: auto;
   padding: 70px 0;
   width: 600px;
   background: var(--bg-container);
   border-radius: 20px;
   animation-name: fade;
   animation-duration: 1.5s;
+  box-shadow: -20px 16px 20px rgba(0, 0, 0, 0.534);
 }
 
 form {
@@ -147,5 +154,14 @@ ion-icon:hover {
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@media (max-width: 700px) {
+  .banner h1{
+    font-size: 50px;
+  }
+  .form-section {
+    border-radius: 20px 20px 0 0;
   }
 }
