@@ -56,6 +56,10 @@ h1 {
   width: 600px;
 }
 
+.banner a {
+  text-decoration: none;
+}
+
 .form-section {
   padding: 70px 0;
   width: 600px;
