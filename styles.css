@@ -28,7 +28,7 @@ body {
   background: var(--bg-box);
   display: flex;
   gap: 16px;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 32px;
 }
 
