@@ -67,6 +67,29 @@ h1 {
   box-shadow: -20px 16px 20px rgba(0, 0, 0, 0.534);
 }
 
+.recover {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.recover a {
+  text-decoration: none;
+}
+
+.recover p {
+  padding: 10px;
+  border: 1px solid var(--bg-container);
+  color: var(--text-color);
+  transition: border 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.recover p:hover {
+  border: 1px solid var(--color-hover);
+  color: var(--color-hover);
+}
+
 form {
   width: 360px;
   margin: 20px 0;
