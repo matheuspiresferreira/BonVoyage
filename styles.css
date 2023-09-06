@@ -27,14 +27,22 @@ body {
   align-items: center;
   background: var(--bg-box);
   display: flex;
+  gap: 16px;
   justify-content: space-between;
   padding: 0 32px;
 }
 
 .topbox nav a {
+  border-radius: 8px;
   color: var(--text-color);
   padding: 16px;
   text-decoration: none;
+  transition: background 0.3s;
+}
+
+.topbox nav a:hover {
+  background: var(--color-hover);
+  color: var(--text-color);
 }
 
 .user {
