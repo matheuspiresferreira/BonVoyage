@@ -5,38 +5,59 @@
 }
 
 :root {
-  --bg-color: #7c2ae8;
-  --bg-container: #561da2;
+  --bg-color: #561da2;
   --bg-box: #6321b9;
+  --bg-container: #7c2ae8;
   --color-hover: #83d517;
   --text-color: #ffffff;
 }
 
 body {
-  background: var(--bg-box);
+  background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   height: 100vh;
-  max-width: 2000px;
   width: 100vw;
 }
 
-  .topbox {
-    display: flex;
-  }
+/* Top Box */
 
-  nav a {
-  }
+.topbox {
+  align-items: center;
+  background: var(--bg-box);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.topbox nav a {
+  color: var(--text-color);
+  padding: 16px;
+  text-decoration: none;
+}
+
+.user {
+  display: flex;
+  gap: 16px;
+}
+
+.user ion-icon {
+  font-size: 42px;
+  padding: 10px;
+  color: var(--text-color);
+}
 
 #text-banner {
   animation-name: fade;
   animation-duration: 1.5s;
   color: var(--text-color);
-  font-size: 80px;
+  font-size: 42px;
   font-weight: 700;
   padding: 24px;
 }
+
+/* Top Box */
 
 /* 
 @keyframes fade {
