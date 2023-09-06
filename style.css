@@ -133,9 +133,9 @@ form .btn-login {
   background-color: var(--bg-container);
   color: var(--text-color);
   border: none;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: auto;
-  padding: 7px;
+  padding: 10px;
   transition: background 0.2s, color 0.2s;
 }
 
