@@ -22,7 +22,6 @@ body {
 
 body {
   background: var(--bg-box);
-  font-family: Roboto, Arial, sans-serif;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   display: flex;
