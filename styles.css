@@ -81,6 +81,8 @@ body {
 
 /* Top Box */
 
+/* Animations */
+
 @keyframes fade {
   from {
     opacity: 0;
@@ -91,6 +93,9 @@ body {
     transform: scale(1);
   }
 }
+
+/* Animations */
+
 /* 
 @media (max-width: 700px) {
   
