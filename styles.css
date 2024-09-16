@@ -52,12 +52,8 @@ h1 {
   animation-duration: 1.5s;
 }
 
-.banner {
-  width: 600px;
-}
-
-.banner a {
-  text-decoration: none;
+h1#title {
+  font-size: 70px;
 }
 
 .form-section {
